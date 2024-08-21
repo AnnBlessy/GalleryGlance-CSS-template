@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    background: #febff6;
+    padding: 12px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 25px;
+    color: #4f0239;
+    font-style: italic;
+}
+
+header span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #940464;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+}
+
+header nav a {
+    margin-left: 50px;
+    color:#4f0239;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top {
+    background: #fbe2f8;
+    padding: 50px;
+    background-image: url(images/img4.jpg);
+    background-position: right;
+    background-repeat:no-repeat;
+    height: 630px;
+    background-size: 800px;
+}
+
+.top h3 {
+    margin-top: 100px;
+    text-align: left;
+    font-size: 30px;
+    color: #525151;
+}
+
+.top h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-style: italic;
+    color: #940464;
+}
+
+.top h5 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: #940464;
+    font-family: serif;
+    font-style: italic;
+}
+
+.search-bar {
+    text-align: left;
+    margin-top: 80px;
+}
+
+.search-bar select {
+    display: block;
+    width: 45%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    background-color: #720252;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fbf1fa;
+    font-weight: bold;
+}
+
+.arts {
+    padding: 30px;
+    text-align: center;
+}
+
+.arts h3 {
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 35px;
+    text-align: left;
+    color: #940464;
+}
+
+.arts p {
+    padding-left: 30px;
+    font-size: 18px;
+    text-align: left;
+    color: #940464;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.art-works {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    background: #fff;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.art-works img {
+    width: 100%;
+    height: auto;
+}
+
+.art-works h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.art-works p {
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+}
+
+.art-works button {
+    background-color: #720252;
+    padding: 10px 20px;
+    color: #fbf1fa;
+    font-weight: bold;
+}
+
+.contact {
+    background: #fbf1fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:#720252;
+}
+
+.contact form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+
+.contact select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #720252;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
